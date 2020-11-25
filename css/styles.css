@@ -1,5 +1,40 @@
 *  {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #474e5d;
+  font-family: Arial;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a{
+  color:rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.logo{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  padding: 8px;
 }
 
 body, html{
@@ -39,6 +74,8 @@ h1{
     width: 80%;
     padding: 20px;
     text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
   
 .about-section {
@@ -46,12 +83,7 @@ h1{
     text-align: center;
     background-color: #474e5d;
     color: white;
-  }
-  
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+    border-radius: 10px;
   }
   
 @media screen and (max-width: 650px) {
@@ -60,3 +92,11 @@ h1{
       display: block;
     }
   }
+
+.resume-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  border-radius: 10px;
+}  
