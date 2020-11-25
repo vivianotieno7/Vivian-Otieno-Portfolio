@@ -20,7 +20,7 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
 }
 
 .nav-links a{
@@ -29,12 +29,6 @@ nav{
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
-}
-
-.logo{
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
-  padding: 8px;
 }
 
 body, html{
@@ -78,25 +72,9 @@ h1{
     border-bottom-right-radius: 70px;
 }
   
-.about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-    border-radius: 10px;
-  }
-  
 @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
   }
-
-.resume-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-  border-radius: 10px;
-}  
